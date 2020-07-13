@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../img/bg.jpg) no-repeat;
+    background: url('../img/bg.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -22,10 +22,13 @@ body {
 }
 
 .box-img {
-    border-radius: 50%;
+    border-radius: 100%;
+    
     width: 200px;
     height: 200px;
 }
+
+
 
 .box h1 {
     font-size: 40px;
@@ -50,7 +53,7 @@ ul {
 
 .box li {
     display: inline-block;
-    margin: 6px;
+    margin: 20px;
     list-style: none;
 }
 
@@ -61,6 +64,14 @@ ul {
     transition: all ease-in-out 0.25s;
 }
 
-.box li a:hover {
-    color: rgb(109, 109, 109);
+.box li:first-child a:hover {
+    color: #4680C2;
+}
+
+.box li:nth-child(2) a:hover {
+    color: #000000;
+}
+
+.box li:nth-child(2) a:hover {
+    color: #0e76a8;
 }
