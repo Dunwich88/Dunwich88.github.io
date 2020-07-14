@@ -5,12 +5,14 @@
 body {
     margin: 0;
     padding: 0;
-    background: url('../img/bg.jpg') no-repeat;
-    background-size: cover;
+    /* background: url('../img/bg.jpg') no-repeat;
+    background-size: cover; */
+    background: rgb(219,107,156);
+    background: radial-gradient(circle, rgba(219,107,156,1) 0%, rgba(87,156,237,1) 100%);
 }
 
 .box {
-    width: 450px;
+    width: 700px;
     background: rgba(0, 0, 0, 0.623);
     padding: 40px;
     text-align: center;
@@ -18,7 +20,8 @@ body {
     margin-top: 5%;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border-radius: 1%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .box-img {
@@ -49,6 +52,7 @@ body {
 ul {
     margin: 0;
     padding: 0%;
+    
 }
 
 .box li {
@@ -62,6 +66,7 @@ ul {
     text-decoration: none;
     font-size: 60px;
     transition: all ease-in-out 0.25s;
+    
 }
 
 .box li:first-child a:hover {
@@ -76,6 +81,6 @@ ul {
     color: #000000;
 }
 
-.box li:nth-child(2) a:hover {
+.box li:last-child a:hover {
     color: #0e76a8;
 }
